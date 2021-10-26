@@ -7,4 +7,3 @@ Maxwel C Oliveira. (2021). maxwelco/layered_residual: First release (v0.0.1). Ze
 
 [![DOI](https://zenodo.org/badge/421439843.svg)](https://zenodo.org/badge/latestdoi/421439843)
 
-https://zenodo.org/badge/421439843.svg
