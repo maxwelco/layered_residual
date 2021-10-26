@@ -269,8 +269,8 @@ ggplot(aes(x = fct_reorder(herbicide, emmean),
   ylim(0, 100) +
   labs(x = NULL, y = "Waterhemp control (%)") +
   theme_bw() +
-  theme(axis.text.y = element_markdown(),
-        axis.title.x = element_blank(),
+  theme(axis.text.x = element_markdown(),
+        axis.title.y = element_blank(),
         strip.text = element_markdown(size = 11, face = "bold"),
         legend.position = "none",
         plot.background = element_rect(fill = "#F9F6EE"),
