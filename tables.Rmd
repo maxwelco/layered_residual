@@ -1,0 +1,59 @@
+---
+title: "tables"
+author: "Maxwel Coura Oliveira"
+date: "10/5/2021"
+output: html_document
+---
+
+
+```{r}
+library(tidyverse)
+library(gtExtras)
+library(gt)
+```
+
+
+```{r}
+tables <- read_csv("data/tables.csv") |> 
+  dplyr::select(-Harvest)
+```
+
+```{r}
+tables %>%
+  mutate_if(is.double, ~round(.,2)) |> 
+#  mutate(Parameter = fct_recode(Parameter,
+#                                "glufosinate vs glufosinate + <i>S</i>-metolachlor" = "glufosinate vs glufosinate + S-metolachlor")) |> 
+  gt() %>% 
+  gt_theme_espn() |> 
+  tab_spanner(
+    label = "Bayes Factor",
+    columns = c(`14 DAT`:Yield)) |> 
+    tab_footnote(
+      footnote = "DAT, Days After Treatment - Waterhemp control",
+      locations = cells_column_labels(
+      columns = c(`14 DAT`,`28 DAT`)
+    )) |> 
+  gt_highlight_rows(rows = c(1,3:5,7), 
+                    font_weight = "bold", 
+                    fill = "beige")  -> fig_tab#|> 
+#  gt_hulk_col_numeric(`14 DAT`:Yield, reverse = FALSE, trim = TRUE)
+
+
+gtsave(fig_tab, "figures/Figure 4.png")
+```
+
+
+
+
+```{r}
+bayes <- read_csv("data/bayes1.csv")
+```
+
+```{r}
+bayes |> 
+  gt() %>% 
+  gt_theme_espn() -> fig_tab1
+
+gtsave(fig_tab1, "figures/Figure 2.png")
+```
+

@@ -1,0 +1,37 @@
+Parameter,14 DAT,28 DAT,Harvest,Yield
+glufosinate vs glufosinate + acetochlor,0.012,1.59,0.071,0.112
+glufosinate vs glufosinate + dimethenamid-P,0.031,0.027,0.008,0.191
+glufosinate vs glufosinate + fomesafen,0.111,10.29,35.42,0.112
+glufosinate vs glufosinate + fomesafen + acetochlor,0.112,6.64,0.033,0.368
+glufosinate vs glufosinate + fomesafen + S-metolachlor ,0.392,7.21,5.67,0.186
+glufosinate vs glufosinate + imazethapyr  ,0.018,0.02,0.025,0.033
+glufosinate vs glufosinate + pyroxasulfone,0.015,1.4,0.072,0.059
+glufosinate vs glufosinate + S-metolachlor,0.015,0.232,0.021,0.097
+glufosinate + acetochlor vs glufosinate + dimethenamid-P,0.015,0.029,0.014,0.062
+glufosinate + acetochlor vs glufosinate + fomesafen,0.018,0.019,1.39,0.058
+glufosinate + acetochlor vs glufosinate + fomesafen + acetochlor,0.018,0.008,0.002,0.022
+glufosinate + acetochlor vs glufosinate + fomesafen + S-metolachlor,0.051,0.012,0.173,0.057
+glufosinate + acetochlor vs glufosinate + imazethapyr,0.004,0.025,0.018,0.019
+glufosinate + acetochlor vs glufosinate + pyroxasulfone,0.007,0.006,0.017,0.022
+glufosinate + acetochlor vs glufosinate + S-metolachlor      ,0.005,0.01,0.021,0.034
+glufosinate + dimethenamid-P vs glufosinate + fomesafen,0.817,0.107,16.59,0.106
+glufosinate + dimethenamid-P vs glufosinate + fomesafen + acetochlor,0.834,0.111,0.02,0.004
+glufosinate + dimethenamid-P vs glufosinate + fomesafen + S-metolachlor,0.943,0.114,1.6,0.028
+glufosinate + dimethenamid-P vs glufosinate + imazethapyr ,0.026,0.002,0.003,0.008
+glufosinate + dimethenamid-P vs glufosinate + pyroxasulfone,0.028,0.013,0.025,0.027
+glufosinate + dimethenamid-P vs glufosinate + S-metolachlor,0.007,0.004,0.003,0.029
+glufosinate + fomesafen vs glufosinate + fomesafen + acetochlor,0.003,0.003,0.005,0.038
+glufosinate + fomesafen vs glufosinate + fomesafen + S-metolachlor,0.009,0.004,0.015,0.126
+glufosinate + fomesafen vs glufosinate + imazethapyr,0.007,0.299,27.53,0.031
+glufosinate + fomesafen vs glufosinate + pyroxasulfone,0.008,0.019,1.48,0.049
+glufosinate + fomesafen vs glufosinate + S-metolachlor,0.042,0.036,1000,0.061
+glufosinate + fomesafen + acetochlor vs glufosinate + fomesafen + S-metolachlor,0.006,0.002,0.001,0.019
+glufosinate + fomesafen + acetochlor vs glufosinate + imazethapyr,0.019,0.081,0.103,0.012
+glufosinate + fomesafen + acetochlor vs glufosinate + pyroxasulfone,0.017,0.006,0.002,0.02
+glufosinate + fomesafen + acetochlor vs glufosinate + S-metolachlor,0.09,0.01,0.094,0.026
+glufosinate + fomesafen + S-metolachlor vs glufosinate + imazethapyr,0.019,0.215,1.14,0.023
+glufosinate + fomesafen + S-metolachlor vs glufosinate + pyroxasulfone,0.024,0.011,0.015,0.037
+glufosinate + fomesafen + S-metolachlor vs glufosinate + S-metolachlor,0.112,0.021,0.766,0.026
+glufosinate + imazethapyr vs glufosinate + pyroxasulfone,0.005,0.018,0.056,0.02
+glufosinate + imazethapyr vs glufosinate + S-metolachlor,0.005,0.011,0.006,0.011
+glufosinate + pyroxasulfone vs glufosinate + S-metolachlor,0.008,0.008,0.039,0.033

@@ -1,0 +1,161 @@
+location,year,herb,other,trade,plot,trt,rep,waterhempcontrol_14,grasscontrol_14,waterhempcontrol_28,grasscontrol_28,waterhempcontrol_harvest,counts_m2,biomass_gm2,yield_bu,phyto_14,dicambadrift_14,canopyclosure_14
+Lancaster,2019,PRE only,PRE only,PRE only,,1,1,85,,88,,,,,,,,
+Lancaster,2019,PRE only,PRE only,PRE only,,1,2,85,,25,,,,,,,,
+Lancaster,2019,PRE only,PRE only,PRE only,,1,3,95,,95,,,,,,,,
+Lancaster,2019,PRE only,PRE only,PRE only,,1,4,35,,10,,,,,,,,
+Lancaster,2019,PRE fb glufosinate,PRE fb glufosinate,Liberty,,2,1,99,,95,,,,,,,,
+Lancaster,2019,PRE fb glufosinate,PRE fb glufosinate,Liberty,,2,2,99,,99,,,,,,,,
+Lancaster,2019,PRE fb glufosinate,PRE fb glufosinate,Liberty,,2,3,99,,99,,,,,,,,
+Lancaster,2019,PRE fb glufosinate,PRE fb glufosinate,Liberty,,2,4,99,,99,,,,,,,,
+Lancaster,2019,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,,3,1,91,,98,,,,,,,,
+Lancaster,2019,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,,3,2,95,,88,,,,,,,,
+Lancaster,2019,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,,3,3,85,,75,,,,,,,,
+Lancaster,2019,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,,3,4,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,,4,1,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,,4,2,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,,4,3,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,,4,4,99,,99,,,,,,,,
+Lancaster,2019,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,,5,1,99,,99,,,,,,,,
+Lancaster,2019,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,,5,2,95,,89,,,,,,,,
+Lancaster,2019,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,,5,3,99,,99,,,,,,,,
+Lancaster,2019,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,,5,4,99,,99,,,,,,,,
+Lancaster,2019,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,,6,1,99,,99,,,,,,,,
+Lancaster,2019,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,,6,2,99,,99,,,,,,,,
+Lancaster,2019,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,,6,3,99,,95,,,,,,,,
+Lancaster,2019,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,,6,4,95,,99,,,,,,,,
+Lancaster,2019,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,,7,1,95,,99,,,,,,,,
+Lancaster,2019,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,,7,2,99,,99,,,,,,,,
+Lancaster,2019,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,,7,3,99,,99,,,,,,,,
+Lancaster,2019,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,,7,4,99,,99,,,,,,,,
+Lancaster,2019,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,,8,1,99,,99,,,,,,,,
+Lancaster,2019,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,,8,2,99,,99,,,,,,,,
+Lancaster,2019,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,,8,3,99,,99,,,,,,,,
+Lancaster,2019,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,,8,4,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,,9,1,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,,9,2,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,,9,3,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,,9,4,75,,50,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,,10,1,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,,10,2,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,,10,3,99,,99,,,,,,,,
+Lancaster,2019,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,,10,4,99,,99,,,,,,,,
+Brooklyn,2019,PRE only,PRE only,PRE only,,1,1,60,,50,,0,,,,,,
+Brooklyn,2019,PRE only,PRE only,PRE only,,1,2,60,,35,,0,,,30.44193115,,,
+Brooklyn,2019,PRE only,PRE only,PRE only,,1,3,73,,50,,0,,,35.05578634,,,
+Brooklyn,2019,PRE only,PRE only,PRE only,,1,4,75,,60,,0,,,43.37975189,,,
+Brooklyn,2019,PRE fb glufosinate,PRE fb glufosinate,Liberty,,2,1,90,,80,,70,,,,,,
+Brooklyn,2019,PRE fb glufosinate,PRE fb glufosinate,Liberty,,2,2,90,,83,,75,,,66.63928991,,,
+Brooklyn,2019,PRE fb glufosinate,PRE fb glufosinate,Liberty,,2,3,89,,83,,75,,,55.93704849,,,
+Brooklyn,2019,PRE fb glufosinate,PRE fb glufosinate,Liberty,,2,4,99,,97,,98,,,68.05149486,,,
+Brooklyn,2019,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,,3,1,88,,75,,50,,,,,,
+Brooklyn,2019,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,,3,2,94,,83,,80,,,68.01868992,,,
+Brooklyn,2019,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,,3,3,93,,80,,75,,,55.84191746,,,
+Brooklyn,2019,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,,3,4,99,,93,,95,,,65.93564939,,,
+Brooklyn,2019,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,,4,1,99,,97,,99,,,,,,
+Brooklyn,2019,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,,4,2,99,,98,,99,,,67.9711244,,,
+Brooklyn,2019,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,,4,3,99,,99,,99,,,63.78535887,,,
+Brooklyn,2019,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,,4,4,99,,99,,99,,,62.35839334,,,
+Brooklyn,2019,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,,5,1,83,,75,,60,,,,,,
+Brooklyn,2019,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,,5,2,90,,85,,70,,,67.1625106,,,
+Brooklyn,2019,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,,5,3,95,,90,,85,,,55.84191746,,,
+Brooklyn,2019,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,,5,4,94,,85,,75,,,67.63816578,,,
+Brooklyn,2019,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,,6,1,83,,75,,60,,,,,,
+Brooklyn,2019,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,,6,2,90,,75,,65,,,56.65053125,,,
+Brooklyn,2019,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,,6,3,98,,93,,90,,,,,,
+Brooklyn,2019,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,,6,4,94,,85,,88,,,63.78535887,,,
+Brooklyn,2019,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,,7,1,83,,75,,50,,,,,,
+Brooklyn,2019,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,,7,2,90,,83,,80,,,68.97000027,,,
+Brooklyn,2019,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,,7,3,97,,95,,80,,,62.21569679,,,
+Brooklyn,2019,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,,7,4,99,,94,,95,,,63.78535887,,,
+Brooklyn,2019,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,,8,1,83,,70,,65,,,,,,
+Brooklyn,2019,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,,8,2,95,,80,,70,,,,,,
+Brooklyn,2019,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,,8,3,98,,96,,95,,,63.02431059,,,
+Brooklyn,2019,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,,8,4,98,,98,,99,,,62.83404852,,,
+Brooklyn,2019,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,,9,1,99,,96,,85,,,,,,
+Brooklyn,2019,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,,9,2,99,,99,,98,,,66.25876577,,,
+Brooklyn,2019,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,,9,3,99,,99,,99,,,64.45127611,,,
+Brooklyn,2019,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,,9,4,99,,99,,99,,,66.63928991,,,
+Brooklyn,2019,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,,10,1,99,,95,,80,,,,,,
+Brooklyn,2019,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,,10,2,99,,98,,99,,,71.44340717,,,
+Brooklyn,2019,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,,10,3,99,,99,,90,,,62.45352438,,,
+Brooklyn,2019,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,,10,4,99,,99,,99,,,68.39921406,,,
+Lancaster,2020,PRE only,PRE only,PRE only,101,1,1,70,,60,,,6,22.18,65.32140697,0,,
+Lancaster,2020,PRE only,PRE only,PRE only,203,1,2,78,,40,,,2,1.96,66.52700341,1,,
+Lancaster,2020,PRE only,PRE only,PRE only,308,1,3,80,,50,,,6,46.84,74.47297993,0,,
+Lancaster,2020,PRE only,PRE only,PRE only,405,1,4,65,,55,,,2,0.68,71.18498965,2,,
+Lancaster,2020,PRE fb glufosinate,PRE fb glufosinate,Liberty,102,2,1,100,75,0,,,2,1.18,71.62338835,0,,
+Lancaster,2020,PRE fb glufosinate,PRE fb glufosinate,Liberty,207,2,2,85,95,50,,,2,0,74.80177896,0,,
+Lancaster,2020,PRE fb glufosinate,PRE fb glufosinate,Liberty,306,2,3,92,91,78,,,8,44.16,63.18421329,0.5,,
+Lancaster,2020,PRE fb glufosinate,PRE fb glufosinate,Liberty,404,2,4,94,80,92,,,2,0,73.76058204,1,,
+Lancaster,2020,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,103,3,1,100,70,75,,,0,0,71.23978949,1.5,,
+Lancaster,2020,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,209,3,2,95,94,78,,,2,0.44,67.07500179,1.5,,
+Lancaster,2020,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,310,3,3,100,100,89,,,8,14.32,66.3626039,0.25,,
+Lancaster,2020,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,408,3,4,100,100,100,,,12,21.5,68.71899693,1,,
+Lancaster,2020,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,104,4,1,100,70,100,,,18,64.94,69.8149937,0,,
+Lancaster,2020,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,205,4,2,89,88,88,,,4,1,69.21219548,1,,
+Lancaster,2020,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,303,4,3,95,75,76,,,4,22.6,67.34900098,1,,
+Lancaster,2020,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,409,4,4,100,100,100,,,0,0,67.18460147,0.5,,
+Lancaster,2020,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,105,5,1,100,70,85,,,6,4.28,68.60939726,0.25,,
+Lancaster,2020,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,201,5,2,60,75,60,,,2,37.96,71.51378868,0.25,,
+Lancaster,2020,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,307,5,3,100,98,100,,,6,15.56,62.14301637,0.5,,
+Lancaster,2020,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,406,5,4,100,98,100,,,6,8.88,60.1702222,0,,
+Lancaster,2020,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,106,6,1,100,75,100,,,2,30.24,70.91099046,0.25,,
+Lancaster,2020,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,208,6,2,90,100,84,,,0,0,71.62338835,0.25,,
+Lancaster,2020,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,305,6,3,60,95,58,,,0,0,71.34938916,0.25,,
+Lancaster,2020,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,403,6,4,97,80,100,,,6,1.84,69.48619467,0.25,,
+Lancaster,2020,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,107,7,1,85,65,82,,,6,50.46,71.13018981,0,,
+Lancaster,2020,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,202,7,2,40,85,20,,,4,0.86,72.39058609,0.5,,
+Lancaster,2020,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,304,7,3,50,93,40,,,2,0,69.8149937,0,,
+Lancaster,2020,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,407,7,4,100,100,100,,,8,60.82,65.37620681,0.25,,
+Lancaster,2020,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,108,8,1,100,80,100,,,2,0.32,62.30741588,0,,
+Lancaster,2020,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,210,8,2,92,90,82,,,6,2.32,63.67741183,0.25,,
+Lancaster,2020,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,301,8,3,88,91,80,,,2,26.34,68.77014713,1,,
+Lancaster,2020,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,402,8,4,92,98,80,,,2,31.68,70.85984774,0.5,,
+Lancaster,2020,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,109,9,1,95,86,100,,,0,0,70.28992939,0.25,,
+Lancaster,2020,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,204,9,2,100,85,90,,,2,96.2,73.70943947,0,,
+Lancaster,2020,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,309,9,3,100,100,100,,,2,1.94,68.34270837,0,,
+Lancaster,2020,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,401,9,4,95,94,88,,,2,2.66,74.56431699,0.25,,
+Lancaster,2020,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,110,10,1,100,76,87,,,4,0.34,73.66194627,0.2,,
+Lancaster,2020,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,206,10,2,100,89,100,,,0,0,68.91262672,0,,
+Lancaster,2020,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,302,10,3,94,85,85,,,0,0,68.39020157,0.25,,
+Lancaster,2020,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,410,10,4,100,99,100,,,0,0,73.80442586,0,,
+Brooklyn,2020,PRE only,PRE only,PRE only,101,1,1,60,,50,20,0,9,216.24,36.5791078,0,0,60
+Brooklyn,2020,PRE only,PRE only,PRE only,208,1,2,60,,30,20,0,9,382.06,39.75275712,0,2,60
+Brooklyn,2020,PRE only,PRE only,PRE only,303,1,3,45,,40,0,0,9,38.22,33.75925697,0,0,65
+Brooklyn,2020,PRE only,PRE only,PRE only,406,1,4,63,,50,20,0,17,79.42,34.51725162,0,1,70
+Brooklyn,2020,PRE fb glufosinate,PRE fb glufosinate,Liberty,102,2,1,99,,84,100,93,1,0.56,44.05067465,3,0,70
+Brooklyn,2020,PRE fb glufosinate,PRE fb glufosinate,Liberty,209,2,2,98,,82,100,83,3,1.9,48.66852696,1,3,55
+Brooklyn,2020,PRE fb glufosinate,PRE fb glufosinate,Liberty,306,2,3,96,,70,81,83,2,6.92,53.72558165,,6,75
+Brooklyn,2020,PRE fb glufosinate,PRE fb glufosinate,Liberty,403,2,4,93,,77,100,83,2,17.04,47.53975808,1,0,77
+Brooklyn,2020,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,103,3,1,100,,84,100,89,2,2.1,45.90267428,3,0,60
+Brooklyn,2020,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,206,3,2,100,,94,100,94,1,0,58.9288099,1,1,70
+Brooklyn,2020,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,308,3,3,98,,80,100,89,4,2.58,44.22286443,2,3,65
+Brooklyn,2020,PRE fb imazethapyr + glufosinate,PRE fb glufosinate + imazethapyr,Pursuit,405,3,4,96,,83,100,85,6,11.58,46.06913433,1,0,75
+Brooklyn,2020,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,104,4,1,100,,95,100,93,1,0,45.24046729,6,2,60
+Brooklyn,2020,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,210,4,2,100,,99,100,94,1,0,45.45547895,5,3,45
+Brooklyn,2020,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,302,4,3,100,,99,100,99,0,0,45.46074732,11,0,70
+Brooklyn,2020,PRE fb fomesafen + glufosinate,PRE fb glufosinate + fomesafen,Flexstar,409,4,4,99,,100,100,98,1,0,41.39273695,6,13,55
+Brooklyn,2020,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,105,5,1,97,,88,95,88,1,0,51.56679646,4,0,60
+Brooklyn,2020,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,207,5,2,99,,99,100,94,1,2.24,58.63339743,1,1,70
+Brooklyn,2020,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,301,5,3,100,,100,100,99,0,0,43.51027176,0,2,70
+Brooklyn,2020,PRE fb acetochlor + glufosinate,PRE fb glufosinate + acetochlor,Warrant,404,5,4,99,,100,100,99,0,0,48.874852,1,0,70
+Brooklyn,2020,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,106,6,1,100,,85,96,84,2,3.74,53.89003491,4,0,60
+Brooklyn,2020,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,202,6,2,99,,94,100,93,1,1,49.35256919,4,0,70
+Brooklyn,2020,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,304,6,3,96,,80,100,86,1,8.66,56.68530294,4,0,75
+Brooklyn,2020,PRE fb S-metolachlor + glufosinate,PRE fb glufosinate + S-metolachlor,Dual II Magnum,408,6,4,99,,97,100,89,2,5.78,42.30029589,,4,65
+Brooklyn,2020,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,107,7,1,100,,88,99,90,1,0.74,56.39078709,3,0,55
+Brooklyn,2020,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,204,7,2,98,,80,100,88,3,2.22,57.35119795,,3,75
+Brooklyn,2020,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,310,7,3,100,,80,100,85,5,11.84,41.34189606,,4,60
+Brooklyn,2020,PRE fb dimethenamid-P + glufosinate,PRE fb glufosinate + dimethenamid-P,Outlook,407,7,4,98,,93,100,94,1,0,44.39683082,1,3,75
+Brooklyn,2020,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,108,8,1,100,,92,100,87,1,4.92,54.87632931,5,0,45
+Brooklyn,2020,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,205,8,2,99,,88,100,95,1,0,58.31018556,1,3,75
+Brooklyn,2020,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,307,8,3,100,,94,100,95,1,1.12,51.7072682,1,3,70
+Brooklyn,2020,PRE fb pyroxasulfone + glufosinate,PRE fb glufosinate + pyroxasulfone,Zidua,401,8,4,99,,99,100,99,0,0,41.8442265,3,0,73
+Brooklyn,2020,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,109,9,1,100,,95,100,85,1,3.34,52.34913044,12,0,30
+Brooklyn,2020,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,201,9,2,99,,100,100,99,0,0,45.513431,9,0,70
+Brooklyn,2020,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,305,9,3,99,,95,100,92,1,1.52,54.85623906,9,0,70
+Brooklyn,2020,PRE fb fomesafen + S-metolachlor + glufosinate,PRE fb glufosinate + fomesafen + S-metolachlor,Prefix,410,9,4,99,,98,100,94,1,2.06,40.45575513,10,25,40
+Brooklyn,2020,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,110,10,1,100,,98,95,94,1,0.28,54.32774678,,0,20
+Brooklyn,2020,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,203,10,2,98,,99,100,95,1,0,53.33496582,6,0,70
+Brooklyn,2020,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,309,10,3,99,,96,100,94,1,2.56,42.70137422,5,4,60
+Brooklyn,2020,PRE fb fomesafen + acetochlor + glufosinate,PRE fb glufosinate + fomesafen + acetochlor,Warrant Ultra,402,10,4,98,,89,100,87,1,0.42,44.71382629,5,0,75

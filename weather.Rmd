@@ -1,0 +1,188 @@
+---
+title: "Weather"
+author: "Maxwel Coura Oliveira"
+date: "10/7/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse) # Data wrangling
+library(lubridate) # Dates operations
+library(daymetr)
+library(chirps)
+library(patchwork)
+library(ggtext)
+library(ggthemes)
+library(nasapower)
+library(ggdist)
+library(vegan)
+#https://cran.r-project.org/web/packages/ggdist/vignettes/slabinterval.html
+```
+
+
+```{r}
+# your data
+df_time <- tibble(ID = c('1','2'), 
+                  Site = c('Lancaster','Brooklyn'),
+                  # Both coordinates in decimal format
+                  latitude = c(42.83, 42.52),
+                  longitude = c(-90.76, -89.23),
+                  Start = c('1989-01-01','1989-01-01'),
+                  End = c('2020-12-31','2020-12-31')) %>% 
+            mutate_at(5:6, ymd) # as date
+```
+
+
+
+## Daymet 
+
+```{r function}
+source("weather_daymet.R")
+```
+
+
+
+```{r get_data}
+#dpp default = 0 - dpp = days prior start date
+df_daymet <- weather_daymet(input = df_time, dpp = 0) 
+```
+
+
+```{r}
+df_daymet %>% 
+  janitor::clean_names() %>% 
+  mutate(month_lab = month(date, label = TRUE)) -> weather
+```
+
+
+```{r}
+weather %>% 
+  filter(month %in% c(5, 6, 7, 8, 9, 10)) %>% 
+  mutate(year = as.character(year),
+         highlight = ifelse(year %in% c("2019", "2020"), TRUE, FALSE),
+         variable = if_else(highlight == TRUE, year, "NA")) |> 
+  mutate(temp_F = ((tmean * 9/5) + 32)) -> weather1
+```
+
+
+```{r}
+weather1 %>% 
+#  filter(year %in% c(2019, 2020)) %>% 
+  group_by(site, year, month, month_lab) %>% 
+  summarise(prec = sum(pp), tmax = mean(tmax), tmin = mean(tmin), tmean = mean(tmean)) %>% 
+  mutate_if(is.double, ~round(., 1)) 
+```
+
+
+```{r}
+weather1 %>% 
+  filter(month %in% c(5, 6, 7, 8, 9, 10)) %>% 
+  mutate(year = as.character(year),
+         highlight = ifelse(year %in% c("2019", "2020"), TRUE, FALSE),
+         variable = if_else(highlight == TRUE, year, "NA")) -> weather2
+```
+
+```{r}
+text1 <- tibble(site = "Brooklyn")
+text2 <- tibble(site = "Lancaster")
+```
+
+
+```{r}
+weather2 %>% 
+  filter(variable != "NA") %>% 
+  ggplot(aes(x = month_lab, y = temp_F, 
+             color = variable,
+             fill = variable,
+             group = variable)) +
+  geom_jitter(data = weather2 %>% 
+                filter(variable == "NA"), show.legend = FALSE, 
+              color = "#333333", alpha = 0.02, shape = 16) +
+  stat_gradientinterval(position = "dodge") +
+  theme_bw() +
+  geom_richtext(data = text1, aes(x = 3.4, y = 44.6), lineheight = 0.4, 
+            label = "Mean air temperature <br>in <b style='color:2;'>2019</b> and <b style='color:4;'>2020</b>", size = 2, 
+            label.color = NA, fill = NA, inherit.aes = FALSE) +
+  geom_richtext(data = text2, aes(x = 3.4, y = 50), lineheight = 0.4, 
+            label = "30 years <br>daily mean <br>air temperature", size = 2, 
+             label.color = NA, fill = NA, 
+            color = "#333333", 
+            alpha = 0.5,
+            inherit.aes = FALSE) +
+  geom_curve(data = text2, aes(x = 3.9, y = 51.8, xend = 4.5, yend = 53.6),
+             arrow = arrow(length = unit(0.05, "inch")), 
+             size = 0.4, alpha = 0.5, curvature = -0.3, color = "#000000",
+             inherit.aes = FALSE) +
+  scale_color_manual(values = c(2, 4, "#333333")) +
+  scale_fill_manual(values = c(2, 4, "#333333")) +
+  facet_grid(~ site) +
+  labs(x = NULL, y = "Mean air temperature (F)") +
+  theme(legend.position = "none",
+        strip.text = element_markdown(face = "bold", size = 11),
+        plot.background = element_rect(fill = "#F9F6EE"),
+        panel.background = element_rect(fill = "#F9F6EE")) -> fig1
+
+ggsave("figures/weather.png", height = 3, width = 6)
+```
+
+```{r}
+weather2 %>% 
+  filter(month %in% c(5, 6, 7, 8, 9, 10)) %>% 
+  group_by(month_lab, site, year) %>% 
+  summarise(pp = sum(pp)) %>% 
+  mutate(pp_in = pp / 2.54) |> 
+  mutate(year = as.character(year),
+         highlight = ifelse(year %in% c("2018", "2019"), TRUE, FALSE),
+         variable = if_else(highlight == TRUE, year, "NA")) -> weather2_pp
+```
+
+
+```{r}
+weather2_pp |> 
+  filter(variable == "NA") |> 
+  ggplot(aes(x = month_lab, y = pp_in, fill  = variable)) +
+  geom_bar(data = weather2_pp |> filter(variable != "NA"),
+           position = position_dodge2(width = 0.4),
+           stat = "identity") +
+  geom_jitter(alpha = 0.05, position = position_jitter(seed = 242)) +
+  scale_fill_manual(values = c(2, 4, "#333333")) +
+  theme_bw() +
+  labs(x = NULL, y = "Precipitation (in)") +
+  geom_richtext(data = text1, aes(x = 3.2, y = 126), lineheight = 0.4, 
+            label = "Monthly sum precipitation <br>in <b style='color:red;'>2018</b> and <b style='color:blue;'>2019</b>", size = 2, 
+            label.color = NA, fill = NA, inherit.aes = FALSE) +
+  geom_richtext(data = text2, aes(x = 3, y = 126), lineheight = 0.4, 
+            label = "30 years <br>monthly sum <br>precipitation", size = 2, 
+            label.color = NA, 
+            fill = NA, 
+            alpha = 0.5, 
+            color = "#333333",
+            inherit.aes = FALSE) +
+  geom_curve(data = text2, 
+             x = 3.6, y = 125, 
+             xend = 3.95, yend = 126,
+             alpha = 0.5, 
+             arrow = arrow(length = unit(0.05, "inch")), 
+             size = 0.4, curvature = -0.3, color = "#333333",
+             inherit.aes = FALSE) + 
+  facet_grid(~ site) +
+  theme(legend.position = "none",
+        strip.text = element_markdown(face = "bold", size = 11),
+        plot.background = element_rect(fill = "#F9F6EE"),
+        panel.background = element_rect(fill = "#F9F6EE")) -> fig2
+
+ggsave("figures/pp_in.png", height = 3, width = 6)
+```
+
+
+```{r}
+library(patchwork)
+```
+
+```{r}
+fig1 / fig2 +
+  plot_annotation(tag_levels = 'A')
+
+ggsave("figures/Figure 1.png", height = 6, width = 6)
+```
+
