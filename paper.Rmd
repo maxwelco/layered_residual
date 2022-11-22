@@ -138,7 +138,7 @@ epred1_11 |>
   mutate(herbicide = fct_relevel(herbicide,
                                  levels = c("glufosinate", "glufosinate + dimethenamid-P",
                                             "glufosinate + imazethapyr", 
-                                            "glufosinate + *S*-metolachlor",
+                                            "glufosinate + **S**-metolachlor",
                                             "glufosinate + pyroxasulfone", "glufosinate + acetochlor",
                                             "glufosinate + fomesafen + acetochlor",
                                             "glufosinate + fomesafen + *S*-metolachlor",
@@ -168,13 +168,11 @@ ggplot(aes(x = fct_reorder(herbicide, emmean),
   ylim(0, 100) +
   labs(x = NULL, y = "Waterhemp control (%)") +
   theme_bw() +
-  theme(axis.text.y = element_markdown(),
+  theme(axis.text.y = element_markdown(lineheight = 1.2, color = "#333333"),
+        axis.text.x = element_markdown(lineheight = 1.2, color = "#333333"),
         axis.title.x = element_blank(),
-        strip.text = element_markdown(size = 11, face = "bold"),
-        legend.position = "none",
-        plot.background = element_rect(fill = "#F9F6EE"),
-        panel.background = element_rect(fill = "#F9F6EE"),
-        axis.text = element_markdown(color = "#333333")) -> fig1
+        strip.text = element_markdown(size = 12, face = "bold"),
+        legend.position = "none") -> fig1
 
 #ggsave("figures/Figure 2.png", width = 5, height = 4)
 ```
@@ -242,14 +240,14 @@ epred2_22|>
                                             "glufosinate + *S*-metolachlor",
                                             "glufosinate + pyroxasulfone", "glufosinate + acetochlor",
                                             "glufosinate + fomesafen + acetochlor",
-                                            "glufosinate + fomesafen + *S*-metolachlor",
+                                            "glufosinate + fomesafen + <i>S</i>-metolachlor",
                                             "glufosinate + fomesafen"))) |> 
   mutate(emmean = round(emmean, 2)) -> epred2_222
 ```
 
 ```{r}
 epred2_222 %>% 
-ggplot(aes(x = fct_reorder(herbicide, emmean),
+  ggplot(aes(x = fct_reorder(herbicide, emmean),
            y = emmean * 100, color = herbicide)) +
   geom_point(size = 2) +
   geom_linerange(aes(ymin = lower.HPD * 100, ymax = upper.HPD * 100),
@@ -269,13 +267,11 @@ ggplot(aes(x = fct_reorder(herbicide, emmean),
   ylim(0, 100) +
   labs(x = NULL, y = "Waterhemp control (%)") +
   theme_bw() +
-  theme(axis.text.x = element_markdown(),
+  theme(axis.text.y = element_markdown(lineheight = 1.2, color = "#333333"),
+        axis.text.x = element_markdown(lineheight = 1.2, color = "#333333"),
         axis.title.y = element_blank(),
         strip.text = element_markdown(size = 11, face = "bold"),
-        legend.position = "none",
-        plot.background = element_rect(fill = "#F9F6EE"),
-        panel.background = element_rect(fill = "#F9F6EE"),
-        axis.text = element_markdown(color = "#333333")) -> fig2
+        legend.position = "none") -> fig2
 #ggsave("figures/Figure 22.png", width = 5, height = 4)
 ```
 
