@@ -138,7 +138,7 @@ epred1_11 |>
   mutate(herbicide = fct_relevel(herbicide,
                                  levels = c("glufosinate", "glufosinate + dimethenamid-P",
                                             "glufosinate + imazethapyr", 
-                                            "glufosinate + **S**-metolachlor",
+                                            "glufosinate + *S*-metolachlor",
                                             "glufosinate + pyroxasulfone", "glufosinate + acetochlor",
                                             "glufosinate + fomesafen + acetochlor",
                                             "glufosinate + fomesafen + *S*-metolachlor",
